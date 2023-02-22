@@ -7,7 +7,7 @@ import table from '../Assets/table.svg'
 import denyifa from '../Assets/denyifa.jpg'
 import tunde from '../Assets/tunde.jpeg'
 import abiondun from '../Assets/abiodun tech.jpeg'
-import oyin from '../Assets/oyin.jpeg'
+import oyin from '../Assets/oyinda.jpeg'
 
 export const data =[
     {id:1,

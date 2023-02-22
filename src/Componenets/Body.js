@@ -10,6 +10,9 @@ import line from "../Assets/Vector 8.svg";
 import twitter from "../Assets/twitter (1).svg";
 import facebook from "../Assets/facebook (1).svg";
 import lindkin from "../Assets/insta.svg";
+import {BsCart3} from 'react-icons/bs';
+import {BiHeart} from 'react-icons/bi'
+import {BsArrowRight} from 'react-icons/bs'
 
 const Body = () => {
   const [datum] = useState(data);
@@ -68,8 +71,8 @@ const Body = () => {
               </div>
               <p>{description}</p>
               <div className="btn-item">
-                <button id="btn-one">🛒Add to Cart</button>
-                <button id="btn-two">♥️ Save item</button>
+                <button id="btn-one"><BsCart3/> Add to Cart</button>
+                <button id="btn-two"><BiHeart/> Save item</button>
               </div>
             </div>
           );
@@ -85,7 +88,7 @@ const Body = () => {
           return (
             <div className="inner-person" key={persons.id}>
               <img src={img} alt="" />
-              <h4>{name}</h4>
+              <h5>{name}</h5>
               <p>{title}</p>
             </div>
           );
@@ -110,7 +113,7 @@ const Body = () => {
         <div id="sub">
           <h5>Subscribe to our newsletter</h5>
           <input type="Subscribe" id="form5" label="Subscribe" />
-          <button id="btn-sub">Subscribe</button>
+          <button id="btn-sub">Subscribe→</button>
         </div>
       </div>
       <div className="line">

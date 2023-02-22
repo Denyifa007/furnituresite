@@ -103,6 +103,9 @@
   height: 350px;
   border: none;
 }
+.inner-person h5{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 .footer {
   padding-top: 4rem;
   background-color: #1d1d18;
