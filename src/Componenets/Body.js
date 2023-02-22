@@ -113,7 +113,7 @@ const Body = () => {
         <div id="sub">
           <h5>Subscribe to our newsletter</h5>
           <input type="Subscribe" id="form5" label="Subscribe" />
-          <button id="btn-sub">Subscribe→</button>
+          <button id="btn-sub">Subscribe<BsArrowRight/></button>
         </div>
       </div>
       <div className="line">
